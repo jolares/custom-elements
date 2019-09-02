@@ -127,4 +127,4 @@ class ModalOpenMode extends HTMLElement {
 }
 
 // Registers Modal as a Custom Element.
-customElements.define('modal-open', ModalOpenMode);
+customElements.define('modal-open-mode', ModalOpenMode);

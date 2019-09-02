@@ -3,16 +3,24 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Loads the Modal web component -->
+  <!-- Loads the Modal web components -->
   <script src="./modal-open-mode.js"></script>
+  <script src="./modal-closed-mode.js"></script>
 </head>
 
 <body>
   <h2>Modal web components built with Vanilla JS.</h2>
 
+  <!-- Modal featuring open shadowRoot-->
   <modal-open-mode>
     <h1 slot="header">Projected Modal 1 Header</h1>
     <p slot="body">This is the content projected into the modal 1.</p>
   </modal-open-mode>
+
+  <!-- Modal featuring closed shadowRoot-->
+  <modal-closed-mode>
+    <h1 slot="header">Projected Modal 2 Header</h1>
+    <p slot="body">This is the content projected into the modal 2.</p>
+  </modal-closed-mode>
 </body>
 </html>
